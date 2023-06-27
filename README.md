@@ -43,5 +43,5 @@ Here's an example of code that adds a new bookmark:
     };
 
 
-Author
+# Author
 Bogdan Sinitsya- synytsiabohdan@gmail.com
