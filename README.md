@@ -1,9 +1,9 @@
-# youtubeBookmarks
+# youtube Bookmarks
 Saving timestamps in YT videos google chrome extension
-Introduction
+# Introduction
 This project contains code for a browser extension that adds the ability to bookmark and save the current timestamp on YouTube videos.
 
-Installation
+# Installation
 Clone the repository to your computer:
 
 Open the extensions page in the Chrome web browser.
@@ -14,7 +14,7 @@ Click on the "Load unpacked" button and select the cloned folder from the reposi
 
 The extension will be installed in your browser.
 
-Usage
+# Usage
 Open the YouTube website and watch a video.
 
 A bookmark button in the form of an icon will appear below the video player. Click on it to add the current timestamp as a bookmark.
@@ -23,15 +23,14 @@ Bookmarks will be displayed next to the video player. You can click on them to j
 
 Add new bookmarks as needed.
 
-Examples
+# Examples
 Here's an example of code that adds a new bookmark:
 
-javascript
-Copy code
-const addNewBookmark = (bookmarksElement, bookmark) => {
+
+
+    const addNewBookmark = (bookmarksElement, bookmark) => {
     const bookmarkTitleElement = document.createElement("div");
     const newBookmarkElement = document.createElement("div");
-
     bookmarkTitleElement.textContent = bookmark.desc;
     bookmarkTitleElement.className = "bookmark-title";
 
@@ -41,6 +40,8 @@ const addNewBookmark = (bookmarksElement, bookmark) => {
 
     newBookmarkElement.appendChild(bookmarkTitleElement);
     bookmarksElement.appendChild(newBookmarkElement);
-};
+    };
+
+
 Author
 Bogdan Sinitsya- synytsiabohdan@gmail.com
